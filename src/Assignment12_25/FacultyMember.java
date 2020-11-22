@@ -9,13 +9,14 @@
 package Assignment12_25;
 
 public class FacultyMember {
+
     String firstName;
     String lastName;
     String rank; //assistant, associate, full
-    double salary;
+    String salary;
 
     //constructor for adding a new facultyMember
-    public void addFacultyMember(String firstName, String lastName, String rank, double salary){
+    public FacultyMember(String firstName, String lastName, String rank, String salary){
         this.firstName = firstName;
         this.lastName = lastName;
         this.rank = rank;
